@@ -1,13 +1,21 @@
 /* ページ全体 */
 
 body {
-    background-color: #0f1923;
+  background-color: #0f1923;
 }
-
 
 /** ヘッダー */
 
 .header__container {
+  background-color: rgb(0, 0, 43);
+  height: 70px;
+}
+
+.about__title {
+  color: chartreuse;
+}
+.about__description {
+  color: white;
 }
 
 .header__nav {
@@ -20,6 +28,9 @@ body {
 /* メンバー */
 .member-section .members {
 }
+.section-title {
+  color: aqua;
+}
 
 .member {
 }
@@ -28,6 +39,9 @@ body {
 }
 
 .member__name {
+}
+.member__name {
+  color: white;
 }
 
 /* ゲーム */
