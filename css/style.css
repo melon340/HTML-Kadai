@@ -36,35 +36,68 @@ body {
 
 /* メンバー */
 .member-section {
-  display: flex;
   background-color: white;
 }
 .member__image {
-  align-content: flex-start;
 }
+.members {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .section-title {
   color: rgb(66, 255, 41);
 }
 
 .member {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  width: 18%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .member__image img {
   width: 75%;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
   margin-top: 20px;
-  margin-bottom: 25px;
 }
 
 .member__name {
 }
 .member__name {
-  color: white;
-  margin-left: 85px;
+  color: rgb(255, 255, 255);
+  padding-left: 30%;
 }
 
 /* ゲーム */
 
+.game-section {
+  background-color: rgb(0, 0, 0);
+  height: 450px;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game {
+  background-color: pink;
+  width: 20%;
+  margin-bottom: 30%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.game__image img {
+  width: 75%;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.game__name {
+  color: black;
+  padding-left: 40%;
+}
 /* お問い合わせ */
