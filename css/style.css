@@ -101,3 +101,7 @@ body {
   padding-left: 40%;
 }
 /* お問い合わせ */
+
+.contact-section {
+  background-color: pink;
+}
