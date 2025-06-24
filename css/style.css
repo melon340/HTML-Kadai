@@ -22,6 +22,7 @@ h2 {
 }
 .about__description {
   color: white;
+  overflow-wrap: break-word;
 }
 
 .header__nav {
@@ -61,19 +62,12 @@ h2 {
   flex-direction: column;
   align-items: center;
   background-color: rgb(0, 0, 0);
-  width: 18%;
-  margin-bottom: 2%;
-  margin-left: 1%;
-  margin-right: 1%;
-  padding-top: 30px;
 }
 
 .member__image img {
   width: 75%;
 }
 
-.member__name {
-}
 .member__name {
   color: rgb(255, 255, 255);
 }
@@ -102,10 +96,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   background-color: pink;
-  width: 17%;
-  margin-bottom: 30%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
 }
 .game__image img {
   width: 75%;
@@ -120,4 +110,45 @@ h2 {
 }
 .contact__form {
   margin-left: 30px;
+}
+
+@media screen and (min-width: 451px) and (max-width: 2000px) {
+  .member {
+    width: 18%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 30px;
+  }
+  .game {
+    width: 17%;
+    margin-bottom: 30%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .about__description {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about__description {
+    width: 100%;
+  }
+  .member {
+    width: 42%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 15px;
+  }
+  .game {
+    width: 42%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  textarea {
+    width: 50%;
+  }
 }
